@@ -23,6 +23,11 @@ def status():
 
     return status_api.json_data()
 
+@app.route('/api/status/disk')
+def status_disk():
+
+    return status_api.json_data_disk()
+
 #log
 @app.route('/api/error_log')
 def error_log():
@@ -65,6 +70,16 @@ def public_msg():
     log_make.api_use_log(f'API-[public_message] user IP:{request.remote_addr} URL:{request.path} Method:{request.method}')
     return jsonify(json)
 
+
+@app.route('/api/disk_stat_table')
+def disk_stat_table():
+    json={
+        "contect":""
+    }
+    log_make.api_use_log(f'API-[disk_stat_table] user IP:{request.remote_addr} URL:{request.path} Method:{request.method}')
+    return jsonify(json)
+
+
 #文件共享
 
 @app.route('/src/<path:filename>')
@@ -86,7 +101,7 @@ def download_file(filename):
 @app.route('/api/status_d')
 def dynamic_status():
     json={
-
+        "contect":status_api.json_data()
     }
 
 

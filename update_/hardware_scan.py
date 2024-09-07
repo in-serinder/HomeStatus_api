@@ -1,6 +1,7 @@
 import time
 
 from base import system_info
+from base import disk_scan
 import config_deal
 import log_make
 
@@ -18,5 +19,6 @@ def disk_warning():
 
 def scan_start():
     while True:
+        disk_scan.disk_scan()
         disk_warning()
         time.sleep(config_deal.get_scan_time() *60 *60)

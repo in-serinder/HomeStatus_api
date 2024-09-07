@@ -1,4 +1,4 @@
-
+import subprocess
 
 #日志消息
 import log_make
@@ -39,3 +39,8 @@ def byte_upward_format(value,type): #byte,bit,kb
     else:
         return f"{size_format(value)[1]:.2f}{size_format(value)[0]}"
 
+def get_command_output(command):
+    res = subprocess.run(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True,text=True)
+    res=res.stdout.strip()
+    res = res if res else '0'
+    return res

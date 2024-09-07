@@ -1,0 +1,32 @@
+[
+    {
+        "device": "/dev/sdb2",
+        "disk_standby": false,
+        "disk_health": 0,
+        "disk_temp": 80
+    },
+    {
+        "device": "/dev/sde",
+        "disk_standby": false,
+        "disk_health": 0,
+        "disk_temp": 0
+    },
+    {
+        "device": "/dev/sdc",
+        "disk_standby": false,
+        "disk_health": 0,
+        "disk_temp": 0
+    },
+    {
+        "device": "/dev/sdd",
+        "disk_standby": false,
+        "disk_health": 0,
+        "disk_temp": 0
+    },
+    {
+        "device": "/dev/sda1",
+        "disk_standby": false,
+        "disk_health": 0,
+        "disk_temp": 32
+    }
+]

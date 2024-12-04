@@ -7,7 +7,7 @@ import json
 
 jsonpath = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'src', 'disk_health.json'))
 
-
+#扫描
 def disk_scan():
     json=[]
 
@@ -26,12 +26,14 @@ def disk_scan():
 
 
 
-
+#存储
 def disk_scanresult_save(scan_res):
     with open(jsonpath,'w')as file:
         json.dump(scan_res,file,indent=4,separators=(',', ': '))
     log_make.api_hardware_log(f'Disk Scan Results Saved Successfully!')
 
+
+#从文件获取
 
 def get_disk_stats(disk_lable):
     data = []

@@ -1,4 +1,4 @@
-import psutil
+# import psutil
 
 import config_deal
 
@@ -14,6 +14,8 @@ from  base import disk_scan
 from API import base_info_api
 
 
+print(system_info.get_cpu())
+#
 
 config_deal.get_config()
 log_make.api_normal_log(" Server Start ")

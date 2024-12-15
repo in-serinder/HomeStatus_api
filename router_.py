@@ -108,7 +108,7 @@ def dynamic_status():
 
 
 def API_START():
-    app.run(host='192.168.5.10',port=config_deal.get_master_port())
+    app.run(host='127.0.0.1',port=config_deal.get_master_port())
 
 # if __name__ == '__main__':
 #     API_START()

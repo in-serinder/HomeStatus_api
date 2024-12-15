@@ -12,6 +12,8 @@ i_list=[]
 
 
 
+
+
 def get_cpu_temp():
     temp=psutil.sensors_temperatures().get('coretemp')
     for core_temp in temp:

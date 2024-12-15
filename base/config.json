@@ -1,0 +1,18 @@
+{
+    "creat_date": "2024-12-12T10:58:58.100308",
+    "log_use": true,
+    "api_use_log": "api_use.log",
+    "err_log": "err.log",
+    "normal_log": "log.log",
+    "hardware_log": "hardware.log",
+    "master_port": 6324,
+    "custom_port": true,
+    "res_dir_port": 6000,
+    "base_info_api_port": 6325,
+    "log_api_port": 6326,
+    "public_msg_api_port": 6327,
+    "status_api": 6328,
+    "webinfo_api": 6329,
+    "disk_warn_threshold": 90,
+    "scan_time": 4
+}

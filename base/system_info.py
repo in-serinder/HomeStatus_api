@@ -8,12 +8,14 @@ import GPUtil
 import cpuinfo
 import pyudev
 import psutil
+import string
 
 import collection
 import config_deal
 import log_make
 
 from base import disk_scan
+
 
 def get_usr():
     info=len(psutil.users())  #-Login:{getpass.getuser()
@@ -28,9 +30,22 @@ def get_os():
 
 #cpu分两个
 def get_cpu():
-    info=((cpuinfo.get_cpu_info()['brand_raw']).replace("Intel(R)",'')).replace("CPU",'')
+    cpu_info=cpuinfo.get_cpu_info()['brand_raw']
+    cpu_del=''
+    gpu_info=''
+    if str(cpu_info).find('AMD')!=-1:
+        cpu_del=(cpu_info.replace('Ryzen','R')).replace('w',' ')
+        gpu_pos = cpu_del.find('/Radeon')
+        if gpu_pos != -1:
+            gpu_info = cpu_del[gpu_pos:].replace('/','')
+            cpu_del = cpu_del[:gpu_pos]
+    else:
+        cpu_del=cpu_info.replace("Intel(R)",'')
+
+    # info=((.replace("Intel(R)",'')).replace("CPU",'')
     # info=cpuinfo.get_cpu_info()
-    return info
+    print(cpu_info,'\n cpu:',cpu_del,'\n gpu:',gpu_info)
+    return cpu_del
 
 def get_cpu_usage(): #获取状态信息
     cpu_usage=psutil.cpu_percent(interval=1)
@@ -48,8 +63,29 @@ def get_cpu_temp():
         log_make.api_hardware_log(f" [Warning] The CPU temperature has currently exceeded 70℃--Current:{info}%")
     return info
 
+
+def get_gpu_fromcpu():
+    cpu_info=cpuinfo.get_cpu_info()['brand_raw']
+    gpu_info=''
+    if str(cpu_info).find('AMD')!=-1:
+        gpu_pos = cpu_info.find('/Radeon')
+        if gpu_pos != -1:
+            gpu_info = cpu_info[gpu_pos:].replace('/','')
+            cpu_del = cpu_info[:gpu_pos]
+    else:
+        # cpu_del=cpu_info.replace("Intel(R)",'')
+        return 'Inter HD'
+
+    # info=((.replace("Intel(R)",'')).replace("CPU",'')
+    # info=cpuinfo.get_cpu_info()
+    # print(cpu_info,'\n cpu:',cpu_del,'\n gpu:',gpu_info)
+    return gpu_info
+
 def get_gpu():
     try:
+        gpu_fromcpu_info=get_gpu_fromcpu()
+        if gpu_fromcpu_info!='':
+            return get_gpu_fromcpu()
         gpus = GPUtil.getGPUs()
         if not gpus:
             log_make.api_hardware_log("GPU Not Found")
@@ -60,8 +96,12 @@ def get_gpu():
             if "NVIDIA" in info:
                 info = info.replace("NVIDIA", "NV")
             return info
-    except IndexError:
-        log_make.api_hardware_log("GPU Not Found Or DATA ERROR")
+    except (IndexError ,ValueError,RuntimeError,FileNotFoundError) as e:
+        if e!='':
+            log_make.api_hardware_log(f'GPU Not Found Or DATA ERROR--{e}')
+            log_make.err_log(f'GPU-{e}')
+        else:
+            log_make.api_hardware_log(f'GPU Not Found Or DATA ERROR--{e}')
         return "NotFound"
 
 def get_memory():

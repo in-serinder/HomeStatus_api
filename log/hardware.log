@@ -1,0 +1,84 @@
+2024-12-10T22:25:16 Log Created
+[2024-12-10T22:25:16.515904]	Disk Scan Results Saved Successfully!
+[2024-12-10T22:25:16.515946]	Disk scan Successfully
+[2024-12-10T22:35:07.272741]	Disk Scan Results Saved Successfully!
+[2024-12-10T22:35:07.272771]	Disk scan Successfully
+[2024-12-11T07:52:09.214362]	Disk Scan Results Saved Successfully!
+[2024-12-11T07:52:09.214398]	Disk scan Successfully
+[2024-12-12T10:07:02.820156]	Disk Scan Results Saved Successfully!
+[2024-12-12T10:07:02.821363]	Disk scan Successfully
+[2024-12-12T10:25:13.046641]	Disk Scan Results Saved Successfully!
+[2024-12-12T10:25:13.046670]	Disk scan Successfully
+[2024-12-12T10:59:16.994104]	Disk Scan Results Saved Successfully!
+[2024-12-12T10:59:16.994163]	Disk scan Successfully
+[2024-12-12T12:08:39.124857]	Disk Scan Results Saved Successfully!
+[2024-12-12T12:08:39.124937]	Disk scan Successfully
+[2024-12-12T13:18:05.777299]	Disk Scan Results Saved Successfully!
+[2024-12-12T13:18:05.777687]	Disk scan Successfully
+[2024-12-12T13:24:34.255836]	Disk Scan Results Saved Successfully!
+[2024-12-12T13:24:34.255879]	Disk scan Successfully
+[2024-12-12T14:07:16.016116]	Disk Scan Results Saved Successfully!
+[2024-12-12T14:07:16.016148]	Disk scan Successfully
+[2024-12-12T15:01:58.115077]	Disk Scan Results Saved Successfully!
+[2024-12-12T15:01:58.115683]	Disk scan Successfully
+[2024-12-12T15:02:57.786700]	Disk Scan Results Saved Successfully!
+[2024-12-12T15:02:57.786761]	Disk scan Successfully
+[2024-12-15T21:29:58.333279]	Disk Scan Results Saved Successfully!
+[2024-12-15T21:29:58.333334]	Disk scan Successfully
+[2024-12-15T21:31:12.877137]	Disk Scan Results Saved Successfully!
+[2024-12-15T21:31:12.877188]	Disk scan Successfully
+[2024-12-15T21:49:55.805462]	Disk Scan Results Saved Successfully!
+[2024-12-15T21:49:55.805493]	Disk scan Successfully
+[2024-12-15T21:52:19.203341]	Disk Scan Results Saved Successfully!
+[2024-12-15T21:52:19.203409]	Disk scan Successfully
+[2024-12-15T21:52:23.511139]	GPU Not Found Or DATA ERROR--invalid literal for int() with base 10: "NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running."
+[2024-12-15T21:52:31.830311]	GPU Not Found Or DATA ERROR--invalid literal for int() with base 10: "NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running."
+[2024-12-15T21:54:00.509754]	Disk Scan Results Saved Successfully!
+[2024-12-15T21:54:00.509815]	Disk scan Successfully
+[2024-12-15T21:54:05.647590]	GPU Not Found Or DATA ERROR--invalid literal for int() with base 10: "NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running."
+[2024-12-15T21:57:45.523271]	Disk Scan Results Saved Successfully!
+[2024-12-15T21:57:45.523314]	Disk scan Successfully
+[2024-12-15T21:57:49.148434]	GPU Not Found Or DATA ERROR--invalid literal for int() with base 10: "NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running."
+[2024-12-15T21:57:58.593922]	GPU Not Found Or DATA ERROR--invalid literal for int() with base 10: "NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running."
+[2024-12-15T21:58:22.480105]	Disk Scan Results Saved Successfully!
+[2024-12-15T21:58:22.480262]	Disk scan Successfully
+[2024-12-15T21:58:25.185313]	GPU Not Found Or DATA ERROR--invalid literal for int() with base 10: "NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running."
+[2024-12-15T21:58:29.217825]	GPU Not Found Or DATA ERROR--invalid literal for int() with base 10: "NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running."
+[2024-12-15T21:58:55.623537]	Disk Scan Results Saved Successfully!
+[2024-12-15T21:58:55.623565]	Disk scan Successfully
+[2024-12-15T21:58:57.883901]	GPU Not Found Or DATA ERROR--invalid literal for int() with base 10: "NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running."
+[2024-12-15T21:59:49.067710]	GPU Not Found Or DATA ERROR--invalid literal for int() with base 10: "NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running."
+[2024-12-15T22:12:02.033882]	Disk Scan Results Saved Successfully!
+[2024-12-15T22:12:02.033913]	Disk scan Successfully
+[2024-12-15T22:12:07.681962]	GPU Not Found Or DATA ERROR--invalid literal for int() with base 10: "NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running."
+[2024-12-15T22:12:15.654496]	GPU Not Found Or DATA ERROR--invalid literal for int() with base 10: "NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running."
+[2024-12-15T22:12:19.471034]	GPU Not Found Or DATA ERROR--invalid literal for int() with base 10: "NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running."
+[2024-12-15T22:12:26.658096]	GPU Not Found Or DATA ERROR--invalid literal for int() with base 10: "NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running."
+[2024-12-15T22:13:22.378636]	Disk Scan Results Saved Successfully!
+[2024-12-15T22:13:22.378677]	Disk scan Successfully
+[2024-12-15T22:13:33.685121]	GPU Not Found Or DATA ERROR--invalid literal for int() with base 10: "NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running."
+[2024-12-15T22:13:40.938221]	GPU Not Found Or DATA ERROR--invalid literal for int() with base 10: "NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running."
+[2024-12-15T22:13:45.568186]	GPU Not Found Or DATA ERROR--invalid literal for int() with base 10: "NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running."
+[2024-12-15T22:14:37.226429]	Disk Scan Results Saved Successfully!
+[2024-12-15T22:14:37.226461]	Disk scan Successfully
+[2024-12-15T22:15:26.117927]	Disk Scan Results Saved Successfully!
+[2024-12-15T22:15:26.117958]	Disk scan Successfully
+[2024-12-15T22:15:39.804539]	GPU Not Found Or DATA ERROR--invalid literal for int() with base 10: "NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running."
+[2024-12-15T22:21:34.429809]	Disk Scan Results Saved Successfully!
+[2024-12-15T22:21:34.429861]	Disk scan Successfully
+[2024-12-15T22:21:37.190424]	GPU Not Found Or DATA ERROR--invalid literal for int() with base 10: "NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running."
+[2024-12-15T22:23:29.837237]	Disk Scan Results Saved Successfully!
+[2024-12-15T22:23:29.837267]	Disk scan Successfully
+[2024-12-15T22:23:38.225740]	GPU Not Found Or DATA ERROR--invalid literal for int() with base 10: "NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running."
+[2024-12-15T22:23:59.242650]	GPU Not Found Or DATA ERROR--invalid literal for int() with base 10: "NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running."
+[2024-12-15T22:27:02.392570]	Disk Scan Results Saved Successfully!
+[2024-12-15T22:27:02.392618]	Disk scan Successfully
+[2024-12-15T22:27:51.688411]	Disk Scan Results Saved Successfully!
+[2024-12-15T22:27:51.688444]	Disk scan Successfully
+[2024-12-15T22:28:11.893633]	Disk Scan Results Saved Successfully!
+[2024-12-15T22:28:11.893682]	Disk scan Successfully
+[2024-12-15T22:28:44.677751]	Disk Scan Results Saved Successfully!
+[2024-12-15T22:28:44.677787]	Disk scan Successfully
+[2024-12-15T22:28:49.038541]	GPU Not Found Or DATA ERROR--invalid literal for int() with base 10: "NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running."
+[2024-12-15T22:34:04.342938]	Disk Scan Results Saved Successfully!
+[2024-12-15T22:34:04.342967]	Disk scan Successfully

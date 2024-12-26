@@ -14,5 +14,6 @@
     "status_api": 6328,
     "webinfo_api": 6329,
     "disk_warn_threshold":90,
-    "scan_time":4
+    "scan_time":4,
+    "ipv4": "10.22.183.52"
 }

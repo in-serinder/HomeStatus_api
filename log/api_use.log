@@ -137,3 +137,9 @@
 [2024-12-16T07:41:43.887068]	API-[visiter_log] user IP:127.0.0.1 URL:/api/visiter_log Method:GET
 [2024-12-16T07:41:46.198710]	API-[api_log] user IP:127.0.0.1 URL:/api/api_log Method:GET
 [2024-12-16T07:41:53.734747]	API-[error_log] user IP:127.0.0.1 URL:/api/error_log Method:GET
+[2024-12-17T21:42:06.948528]	API-[base-info] user IP:127.0.0.1 URL:/api/baseinfo Method:GET
+[2024-12-17T21:42:06.951410]	API-[visiter_log] user IP:127.0.0.1 URL:/api/visiter_log Method:GET
+[2024-12-17T21:42:06.952154]	API-[public_message] user IP:127.0.0.1 URL:/api/public_msg Method:GET
+[2024-12-17T21:42:17.294525]	API-[base-info] user IP:127.0.0.1 URL:/api/baseinfo Method:GET
+[2024-12-17T21:42:17.296804]	API-[visiter_log] user IP:127.0.0.1 URL:/api/visiter_log Method:GET
+[2024-12-17T21:42:17.297480]	API-[public_message] user IP:127.0.0.1 URL:/api/public_msg Method:GET

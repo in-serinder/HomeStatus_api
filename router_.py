@@ -9,6 +9,9 @@ import collection
 import os.path
 
 
+
+ipv4=config_deal.get_ipv4()
+
 app=Flask(__name__)
 CORS(app)
 #base_info
@@ -108,7 +111,7 @@ def dynamic_status():
 
 
 def API_START():
-    app.run(host='127.0.0.1',port=config_deal.get_master_port())
+    app.run(host=ipv4,port=config_deal.get_master_port())
 
 # if __name__ == '__main__':
 #     API_START()

@@ -44,3 +44,4 @@ router_.API_START()
 #     print(disk_scan.get_disk_stats(partition.device)[0]['disk_temp'],'\n')
 #     print(disk_scan.get_disk_stats(partition.device)[0]['disk_health'],'\n')
 
+print(config_deal.get_ipv4())

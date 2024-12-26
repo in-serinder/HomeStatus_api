@@ -20,7 +20,8 @@ json_data={
     "status_api":6328,
     "webinfo_api":6329,
     "disk_warn_threshold":90,
-    "scan_time":4
+    "scan_time":4,
+    "ipv4":'127.0.0.1'
 }
 
 config_file= "config.json"
@@ -136,3 +137,6 @@ def get_disk_warn_threshold():
 
 def get_scan_time():
     return file_data['scan_time']
+
+def get_ipv4():
+    return file_data['ipv4']

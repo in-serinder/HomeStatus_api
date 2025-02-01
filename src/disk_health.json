@@ -1,36 +1,36 @@
 [
     {
-        "device": "/dev/nvme0n1p5",
-        "disk_standby": false,
-        "disk_health": 0,
-        "disk_temp": 0
-    },
-    {
-        "device": "/dev/nvme1n1p4",
-        "disk_standby": false,
-        "disk_health": 0,
-        "disk_temp": 0
-    },
-    {
-        "device": "/dev/nvme1n1p3",
-        "disk_standby": false,
-        "disk_health": 0,
-        "disk_temp": 0
-    },
-    {
-        "device": "/dev/nvme0n1p2",
-        "disk_standby": false,
-        "disk_health": 0,
-        "disk_temp": 0
-    },
-    {
-        "device": "/dev/nvme0n1p1",
+        "device": "/dev/nvme1n1p5",
         "disk_standby": false,
         "disk_health": 0,
         "disk_temp": 0
     },
     {
         "device": "/dev/nvme0n1p4",
+        "disk_standby": false,
+        "disk_health": 0,
+        "disk_temp": 0
+    },
+    {
+        "device": "/dev/nvme0n1p3",
+        "disk_standby": false,
+        "disk_health": 0,
+        "disk_temp": 0
+    },
+    {
+        "device": "/dev/nvme1n1p2",
+        "disk_standby": false,
+        "disk_health": 0,
+        "disk_temp": 0
+    },
+    {
+        "device": "/dev/nvme1n1p1",
+        "disk_standby": false,
+        "disk_health": 0,
+        "disk_temp": 0
+    },
+    {
+        "device": "/dev/nvme1n1p4",
         "disk_standby": false,
         "disk_health": 0,
         "disk_temp": 0

@@ -30,7 +30,6 @@ file_data={}
 
 def exist_config():
     if not os.path.exists(config_file):     #存在?
-        print("sd")
         with open("config.json", "w")as file:
             json.dump(json_data,file,indent=4)
     else:
@@ -91,6 +90,14 @@ def get_hardware_log():
     except KeyError:
         log_make.config_err("JSON key value error---[hardware_log]")
 
+def get_ipv4():
+    # print("sdsda",file_data)
+    try:
+        exist_config()
+        return file_data['ipv4']
+    except KeyError:
+        log_make.config_err("JSON key value error---[ipv4]")
+
 
 
 #get_port
@@ -138,5 +145,3 @@ def get_disk_warn_threshold():
 def get_scan_time():
     return file_data['scan_time']
 
-def get_ipv4():
-    return file_data['ipv4']

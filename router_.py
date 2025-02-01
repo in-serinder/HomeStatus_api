@@ -4,6 +4,7 @@ from flask_cors import CORS
 import config_deal
 from API import base_info_api
 from API import status_api
+from base import system_info
 import  log_make
 import collection
 import os.path
@@ -106,11 +107,31 @@ def dynamic_status():
     json={
         "contect":status_api.json_data()
     }
+    return jsonify(json)
+# edit
+@app.route('/api/date/localtime')
+def local_time():
+    json={
+            "local_time":system_info.get_time(),
+            "unixtime":f'{system_info.get_unix_time():.0f}'
+        }
+
+    return jsonify(json)
+
+
+@app.route('/api/date/ntptime')
+def ntp_time():
+    json={
+        "contect":status_api.json_data()
+    }
+    return jsonify(json)
+
 
 
 
 
 def API_START():
+    print('get',ipv4)
     app.run(host=ipv4,port=config_deal.get_master_port())
 
 # if __name__ == '__main__':

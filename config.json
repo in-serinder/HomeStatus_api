@@ -5,6 +5,7 @@
     "err_log": "./log/err.log",
     "normal_log": "./log/log.log",
     "hardware_log": "./log/hardware.log",
+    "ipv4": "10.22.183.52",
     "master_port": 7101,
     "custom_port": false,
     "res_dir_port": 6000,
@@ -14,6 +15,5 @@
     "status_api": 6328,
     "webinfo_api": 6329,
     "disk_warn_threshold":90,
-    "scan_time":4,
-    "ipv4": "10.22.183.52"
+    "scan_time":4
 }

@@ -9,6 +9,9 @@ import cpuinfo
 import pyudev
 import psutil
 import string
+from datetime import datetime
+
+from flask import jsonify
 
 import collection
 import config_deal
@@ -181,7 +184,7 @@ def get_disk_status():
 def get_disk_standby_byos(disk_lable):
     disk_standby=False
     res=os.popen(f'smartctl -n standby {disk_lable}').read()
-    print(f'文件：{res}')
+    # print(f'文件：{res}')
     if res.find('STANDBY')!=-1:
         disk_standby=True
         return disk_standby
@@ -233,3 +236,11 @@ def get_disk_health_byos(disk_lable):
         count=count+10
     # 参照50
     return count
+
+
+def get_time():
+    return datetime.now().strftime('%Y-%m-%d | %H:%M:%S')
+
+
+def get_unix_time():
+    return datetime.now().timestamp()
